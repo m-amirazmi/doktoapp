@@ -1,0 +1,11 @@
+.linkContainer {
+  @apply w-full font-thin uppercase flex justify-start items-center p-4 my-2;
+  @apply text-gray-500;
+  @apply hover:text-blue-500;
+}
+
+.linkContainer.active {
+  @apply border-r-4 border-blue-500;
+  @apply text-blue-500;
+  @apply bg-gradient-to-r from-white to-blue-100;
+}

@@ -1,10 +1,15 @@
-import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { routes } from './utils/routes'
 
 export default function App() {
+
+  const renderRoutes = routes.map((route) => <Route key={route.path} exact path={route.path} component={route.component} />)
+
   return (
-    <div>
-      This is a doktoapp
-      <button className="p-3 bg-blue-500">This is button</button>
-    </div>
+    <Router>
+      <Switch>
+        {renderRoutes}
+      </Switch>
+    </Router>
   )
 }
