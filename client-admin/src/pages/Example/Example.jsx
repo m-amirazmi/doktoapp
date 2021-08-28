@@ -4,12 +4,12 @@ import LayoutMain from "../../components/LayoutMain/LayoutMain";
 export default function Example() {
   return (
     <LayoutMain>
-      <div class="w-full sm:w-1/2 xl:w-1/3">
-        <div class="mb-4">
-          <div class="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full">
-            <div class="flex items-center justify-between mb-6">
-              <div class="flex items-center">
-                <span class="rounded-xl relative p-2 bg-blue-100">
+      <div className="w-full sm:w-1/2 xl:w-1/3">
+        <div className="mb-4">
+          <div className="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full">
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center">
+                <span className="rounded-xl relative p-2 bg-blue-100">
                   <svg
                     width="25"
                     height="25"
@@ -35,29 +35,29 @@ export default function Example() {
                     ></path>
                   </svg>
                 </span>
-                <div class="flex flex-col">
-                  <span class="font-bold text-md text-black dark:text-white ml-2">
+                <div className="flex flex-col">
+                  <span className="font-bold text-md text-black dark:text-white ml-2">
                     Google
                   </span>
-                  <span class="text-sm text-gray-500 dark:text-white ml-2">
+                  <span className="text-sm text-gray-500 dark:text-white ml-2">
                     Google Inc.
                   </span>
                 </div>
               </div>
-              <div class="flex items-center">
-                <button class="border p-1 border-gray-200 rounded-full">
+              <div className="flex items-center">
+                <button className="border p-1 border-gray-200 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     height="20"
-                    class="w-4 h-4 text-yellow-500"
+                    className="w-4 h-4 text-yellow-500"
                     fill="currentColor"
                     viewBox="0 0 1792 1792"
                   >
                     <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
                   </svg>
                 </button>
-                <button class="text-gray-200">
+                <button className="text-gray-200">
                   <svg
                     width="25"
                     height="25"
@@ -70,76 +70,76 @@ export default function Example() {
                 </button>
               </div>
             </div>
-            <div class="flex items-center justify-between mb-4 space-x-12">
-              <span class="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-gray-500 bg-gray-200">
+            <div className="flex items-center justify-between mb-4 space-x-12">
+              <span className="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-gray-500 bg-gray-200">
                 PROGRESS
               </span>
-              <span class="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-red-400 border border-red-400  bg-white">
+              <span className="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-red-400 border border-red-400  bg-white">
                 HIGHT PRIORITY
               </span>
             </div>
-            <div class="block m-auto">
+            <div className="block m-auto">
               <div>
-                <span class="text-sm inline-block text-gray-500 dark:text-gray-100">
+                <span className="text-sm inline-block text-gray-500 dark:text-gray-100">
                   Task done :
-                  <span class="text-gray-700 dark:text-white font-bold">
+                  <span className="text-gray-700 dark:text-white font-bold">
                     25
                   </span>
                   /50
                 </span>
               </div>
-              <div class="w-full h-2 bg-gray-200 rounded-full mt-2">
-                <div class="w-1/2 h-full text-center text-xs text-white bg-purple-500 rounded-full"></div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
+                <div className="w-1/2 h-full text-center text-xs text-white bg-purple-500 rounded-full"></div>
               </div>
             </div>
-            <div class="flex items-center justify-start my-4 space-x-4">
-              <span class="px-2 py-1 flex items-center text-xs rounded-md font-semibold text-green-500 bg-green-50">
+            <div className="flex items-center justify-start my-4 space-x-4">
+              <span className="px-2 py-1 flex items-center text-xs rounded-md font-semibold text-green-500 bg-green-50">
                 IOS APP
               </span>
-              <span class="px-2 py-1 flex items-center text-xs rounded-md text-blue-500 font-semibold bg-blue-100">
+              <span className="px-2 py-1 flex items-center text-xs rounded-md text-blue-500 font-semibold bg-blue-100">
                 UI/UX
               </span>
             </div>
-            <div class="flex -space-x-2">
-              <a href="#" class="">
+            <div className="flex -space-x-2">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/1.jpg"
                   alt="Guy"
                 />
               </a>
-              <a href="#" class="">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/2.jpeg"
                   alt="Max"
                 />
               </a>
-              <a href="#" class="">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/3.jpg"
                   alt="Charles"
                 />
               </a>
-              <a href="#" class="">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/4.jpg"
                   alt="Jade"
                 />
               </a>
             </div>
-            <span class="px-2 py-1 flex w-36 mt-4 items-center text-xs rounded-md font-semibold text-yellow-500 bg-yellow-100">
+            <span className="px-2 py-1 flex w-36 mt-4 items-center text-xs rounded-md font-semibold text-yellow-500 bg-yellow-100">
               DUE DATE : 18 JUN
             </span>
           </div>
         </div>
-        <div class="mb-4">
-          <div class="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full">
-            <div class="flex items-center justify-between mb-6">
-              <div class="flex items-center">
-                <span class="rounded-xl relative p-2 bg-blue-100">
+        <div className="mb-4">
+          <div className="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full">
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center">
+                <span className="rounded-xl relative p-2 bg-blue-100">
                   <svg
                     width="25"
                     height="25"
@@ -166,29 +166,29 @@ export default function Example() {
                     </g>
                   </svg>
                 </span>
-                <div class="flex flex-col">
-                  <span class="font-bold text-md text-black dark:text-white ml-2">
+                <div className="flex flex-col">
+                  <span className="font-bold text-md text-black dark:text-white ml-2">
                     Slack
                   </span>
-                  <span class="text-sm text-gray-500 dark:text-white ml-2">
+                  <span className="text-sm text-gray-500 dark:text-white ml-2">
                     Slack corporation
                   </span>
                 </div>
               </div>
-              <div class="flex items-center">
-                <button class="border p-1 border-gray-200 rounded-full">
+              <div className="flex items-center">
+                <button className="border p-1 border-gray-200 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
                     height="20"
-                    class="w-4 h-4 text-yellow-500"
+                    className="w-4 h-4 text-yellow-500"
                     fill="currentColor"
                     viewBox="0 0 1792 1792"
                   >
                     <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"></path>
                   </svg>
                 </button>
-                <button class="text-gray-200">
+                <button className="text-gray-200">
                   <svg
                     width="25"
                     height="25"
@@ -201,92 +201,92 @@ export default function Example() {
                 </button>
               </div>
             </div>
-            <div class="flex items-center justify-between mb-4 space-x-12">
-              <span class="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-green-700 bg-green-50">
+            <div className="flex items-center justify-between mb-4 space-x-12">
+              <span className="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-green-700 bg-green-50">
                 COMPLETED
               </span>
-              <span class="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-green-600 border border-green-600 bg-white">
+              <span className="px-2 py-1 flex items-center font-semibold text-xs rounded-md text-green-600 border border-green-600 bg-white">
                 MEDIUM PRIORITY
               </span>
             </div>
-            <div class="block m-auto">
+            <div className="block m-auto">
               <div>
-                <span class="text-sm inline-block text-gray-500 dark:text-gray-100">
+                <span className="text-sm inline-block text-gray-500 dark:text-gray-100">
                   Task done :
-                  <span class="text-gray-700 dark:text-white font-bold">
+                  <span className="text-gray-700 dark:text-white font-bold">
                     50
                   </span>
                   /50
                 </span>
               </div>
-              <div class="w-full h-2 bg-gray-200 rounded-full mt-2">
-                <div class="w-full h-full text-center text-xs text-white bg-pink-400 rounded-full"></div>
+              <div className="w-full h-2 bg-gray-200 rounded-full mt-2">
+                <div className="w-full h-full text-center text-xs text-white bg-pink-400 rounded-full"></div>
               </div>
             </div>
-            <div class="flex items-center justify-start my-4 space-x-4">
-              <span class="px-2 py-1 flex items-center text-xs rounded-md font-semibold text-green-500 bg-green-50">
+            <div className="flex items-center justify-start my-4 space-x-4">
+              <span className="px-2 py-1 flex items-center text-xs rounded-md font-semibold text-green-500 bg-green-50">
                 IOS APP
               </span>
-              <span class="px-2 py-1 flex items-center text-xs rounded-md text-yellow-600 font-semibold bg-yellow-200">
+              <span className="px-2 py-1 flex items-center text-xs rounded-md text-yellow-600 font-semibold bg-yellow-200">
                 ANDROID
               </span>
             </div>
-            <div class="flex -space-x-2">
-              <a href="#" class="">
+            <div className="flex -space-x-2">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/1.jpg"
                   alt="Guy"
                 />
               </a>
-              <a href="#" class="">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/2.jpeg"
                   alt="Max"
                 />
               </a>
-              <a href="#" class="">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/3.jpg"
                   alt="Charles"
                 />
               </a>
-              <a href="#" class="">
+              <a href="/" className="">
                 <img
-                  class="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
+                  className="inline-block h-10 w-10 rounded-full object-cover ring-2 ring-white"
                   src="/images/person/4.jpg"
                   alt="Jade"
                 />
               </a>
             </div>
-            <span class="px-2 py-1 flex w-36 mt-4 items-center text-xs rounded-md font-semibold text-yellow-500 bg-yellow-100">
+            <span className="px-2 py-1 flex w-36 mt-4 items-center text-xs rounded-md font-semibold text-yellow-500 bg-yellow-100">
               DUE DATE : 18 JUN
             </span>
           </div>
         </div>
       </div>
-      <div class="w-full sm:w-1/2 xl:w-1/3">
-        <div class="mb-4 mx-0 sm:ml-4 xl:mr-4">
-          <div class="shadow-lg rounded-2xl bg-white dark:bg-gray-700 w-full">
-            <p class="font-bold text-md p-4 text-black dark:text-white">
+      <div className="w-full sm:w-1/2 xl:w-1/3">
+        <div className="mb-4 mx-0 sm:ml-4 xl:mr-4">
+          <div className="shadow-lg rounded-2xl bg-white dark:bg-gray-700 w-full">
+            <p className="font-bold text-md p-4 text-black dark:text-white">
               My Tasks
-              <span class="text-sm text-gray-500 dark:text-gray-300 dark:text-white ml-2">
+              <span className="text-sm text-gray-500 dark:text-gray-300 dark:text-white ml-2">
                 (05)
               </span>
             </p>
             <ul>
-              <li class="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">01</span>
+              <li className="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">01</span>
                   <span>Create wireframe</span>
                 </div>
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mx-4 text-gray-400 dark:text-gray-300"
+                  className="mx-4 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 1024 1024"
                 >
                   <path
@@ -299,17 +299,17 @@ export default function Example() {
                   ></path>
                 </svg>
               </li>
-              <li class="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">02</span>
+              <li className="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">02</span>
                   <span>Dashboard design</span>
-                  <span class="lg:ml-6 ml-2 flex items-center text-gray-400 dark:text-gray-300">
+                  <span className="lg:ml-6 ml-2 flex items-center text-gray-400 dark:text-gray-300">
                     3
                     <svg
                       width="15"
                       height="15"
                       fill="currentColor"
-                      class="ml-1"
+                      className="ml-1"
                       viewBox="0 0 512 512"
                     >
                       <path
@@ -318,12 +318,12 @@ export default function Example() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 flex items-center text-gray-400 dark:text-gray-300">
+                  <span className="mx-4 flex items-center text-gray-400 dark:text-gray-300">
                     3
                     <svg
                       width="15"
                       height="15"
-                      class="ml-1"
+                      className="ml-1"
                       fill="currentColor"
                       viewBox="0 0 384 512"
                     >
@@ -338,7 +338,7 @@ export default function Example() {
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mx-4 text-gray-400 dark:text-gray-300"
+                  className="mx-4 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 1024 1024"
                 >
                   <path
@@ -351,17 +351,17 @@ export default function Example() {
                   ></path>
                 </svg>
               </li>
-              <li class="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">03</span>
+              <li className="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">03</span>
                   <span>Components card</span>
-                  <span class="lg:ml-6 ml-2 flex items-center text-gray-400 dark:text-gray-300">
+                  <span className="lg:ml-6 ml-2 flex items-center text-gray-400 dark:text-gray-300">
                     3
                     <svg
                       width="15"
                       height="15"
                       fill="currentColor"
-                      class="ml-1"
+                      className="ml-1"
                       viewBox="0 0 512 512"
                     >
                       <path
@@ -375,7 +375,7 @@ export default function Example() {
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mx-4 text-gray-400 dark:text-gray-300"
+                  className="mx-4 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 1024 1024"
                 >
                   <path
@@ -388,17 +388,17 @@ export default function Example() {
                   ></path>
                 </svg>
               </li>
-              <li class="flex items-center text-gray-400 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">04</span>
-                  <span class="line-through">Google logo design</span>
+              <li className="flex items-center text-gray-400 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">04</span>
+                  <span className="line-through">Google logo design</span>
                 </div>
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
                   viewBox="0 0 1024 1024"
-                  class="text-green-500 mx-4"
+                  className="text-green-500 mx-4"
                 >
                   <path
                     d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64zm193.5 301.7l-210.6 292a31.8 31.8 0 0 1-51.7 0L318.5 484.9c-3.8-5.3 0-12.7 6.5-12.7h46.9c10.2 0 19.9 4.9 25.9 13.3l71.2 98.8l157.2-218c6-8.3 15.6-13.3 25.9-13.3H699c6.5 0 10.3 7.4 6.5 12.7z"
@@ -406,17 +406,17 @@ export default function Example() {
                   ></path>
                 </svg>
               </li>
-              <li class="flex items-center text-gray-400  justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">05</span>
-                  <span class="line-through">Header navigation</span>
+              <li className="flex items-center text-gray-400  justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">05</span>
+                  <span className="line-through">Header navigation</span>
                 </div>
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
                   viewBox="0 0 1024 1024"
-                  class="text-green-500 mx-4"
+                  className="text-green-500 mx-4"
                 >
                   <path
                     d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448s448-200.6 448-448S759.4 64 512 64zm193.5 301.7l-210.6 292a31.8 31.8 0 0 1-51.7 0L318.5 484.9c-3.8-5.3 0-12.7 6.5-12.7h46.9c10.2 0 19.9 4.9 25.9 13.3l71.2 98.8l157.2-218c6-8.3 15.6-13.3 25.9-13.3H699c6.5 0 10.3 7.4 6.5 12.7z"
@@ -424,17 +424,17 @@ export default function Example() {
                   ></path>
                 </svg>
               </li>
-              <li class="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">06</span>
+              <li className="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3 border-b-2 border-gray-100 dark:border-gray-800">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">06</span>
                   <span>International</span>
-                  <span class="lg:ml-6 ml-2 flex items-center text-gray-400 dark:text-gray-300">
+                  <span className="lg:ml-6 ml-2 flex items-center text-gray-400 dark:text-gray-300">
                     3
                     <svg
                       width="15"
                       height="15"
                       fill="currentColor"
-                      class="ml-1"
+                      className="ml-1"
                       viewBox="0 0 512 512"
                     >
                       <path
@@ -443,12 +443,12 @@ export default function Example() {
                       ></path>
                     </svg>
                   </span>
-                  <span class="mx-4 flex items-center text-gray-400 dark:text-gray-300">
+                  <span className="mx-4 flex items-center text-gray-400 dark:text-gray-300">
                     3
                     <svg
                       width="15"
                       height="15"
-                      class="ml-1"
+                      className="ml-1"
                       fill="currentColor"
                       viewBox="0 0 384 512"
                     >
@@ -463,7 +463,7 @@ export default function Example() {
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mx-4 text-gray-400 dark:text-gray-300"
+                  className="mx-4 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 1024 1024"
                 >
                   <path
@@ -476,16 +476,16 @@ export default function Example() {
                   ></path>
                 </svg>
               </li>
-              <li class="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3">
-                <div class="flex items-center justify-start text-sm">
-                  <span class="mx-4">07</span>
+              <li className="flex items-center text-gray-600 dark:text-gray-200 justify-between py-3">
+                <div className="flex items-center justify-start text-sm">
+                  <span className="mx-4">07</span>
                   <span>Production data</span>
                 </div>
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mx-4 text-gray-400 dark:text-gray-300"
+                  className="mx-4 text-gray-400 dark:text-gray-300"
                   viewBox="0 0 1024 1024"
                 >
                   <path
@@ -501,11 +501,13 @@ export default function Example() {
             </ul>
           </div>
         </div>
-        <div class="mb-4 sm:ml-4 xl:mr-4">
-          <div class="shadow-lg rounded-2xl bg-white dark:bg-gray-700 w-full">
-            <div class="flex items-center p-4 justify-between">
-              <p class="font-bold text-md text-black dark:text-white">Google</p>
-              <button class="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
+        <div className="mb-4 sm:ml-4 xl:mr-4">
+          <div className="shadow-lg rounded-2xl bg-white dark:bg-gray-700 w-full">
+            <div className="flex items-center p-4 justify-between">
+              <p className="font-bold text-md text-black dark:text-white">
+                Google
+              </p>
+              <button className="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
                 <svg
                   width="15"
                   height="15"
@@ -521,13 +523,13 @@ export default function Example() {
                 </svg>
               </button>
             </div>
-            <div class="py-2 px-4 bg-blue-100 dark:bg-gray-800 text-gray-600 border-l-4 border-blue-500 flex items-center justify-between">
-              <p class="text-xs flex items-center dark:text-white">
+            <div className="py-2 px-4 bg-blue-100 dark:bg-gray-800 text-gray-600 border-l-4 border-blue-500 flex items-center justify-between">
+              <p className="text-xs flex items-center dark:text-white">
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="text-blue-500 mr-2"
+                  className="text-blue-500 mr-2"
                   viewBox="0 0 24 24"
                 >
                   <g fill="none">
@@ -539,17 +541,17 @@ export default function Example() {
                 </svg>
                 Create wireframe
               </p>
-              <div class="flex items-center">
-                <span class="font-bold text-xs dark:text-gray-200 mr-2 ml-2 md:ml-4">
+              <div className="flex items-center">
+                <span className="font-bold text-xs dark:text-gray-200 mr-2 ml-2 md:ml-4">
                   25 min 20s
                 </span>
-                <button class="text-sm p-1 text-gray-400 border rounded bg-blue-500 mr-4">
+                <button className="text-sm p-1 text-gray-400 border rounded bg-blue-500 mr-4">
                   <svg
                     width="17"
                     height="17"
                     fill="currentColor"
                     viewBox="0 0 24 24"
-                    class="text-white"
+                    className="text-white"
                   >
                     <g fill="none">
                       <path
@@ -561,9 +563,11 @@ export default function Example() {
                 </button>
               </div>
             </div>
-            <div class="flex items-center p-4 justify-between border-b-2 border-gray-100">
-              <p class="font-bold text-md text-black dark:text-white">Slack</p>
-              <button class="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
+            <div className="flex items-center p-4 justify-between border-b-2 border-gray-100">
+              <p className="font-bold text-md text-black dark:text-white">
+                Slack
+              </p>
+              <button className="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
                 <svg
                   width="15"
                   height="15"
@@ -579,13 +583,13 @@ export default function Example() {
                 </svg>
               </button>
             </div>
-            <div class="py-2 px-4 text-gray-600 flex items-center justify-between border-b-2 border-gray-100">
-              <p class="text-xs flex items-center dark:text-white">
+            <div className="py-2 px-4 text-gray-600 flex items-center justify-between border-b-2 border-gray-100">
+              <p className="text-xs flex items-center dark:text-white">
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mr-2"
+                  className="mr-2"
                   viewBox="0 0 24 24"
                 >
                   <g fill="none">
@@ -597,11 +601,11 @@ export default function Example() {
                 </svg>
                 International
               </p>
-              <div class="flex items-center">
-                <span class="text-xs text-gray-400 mr-2 ml-2 md:ml-4">
+              <div className="flex items-center">
+                <span className="text-xs text-gray-400 mr-2 ml-2 md:ml-4">
                   30 min
                 </span>
-                <button class="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
+                <button className="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
                   <svg
                     width="15"
                     height="15"
@@ -618,13 +622,13 @@ export default function Example() {
                 </button>
               </div>
             </div>
-            <div class="py-2 px-4 text-gray-600 flex items-center justify-between border-b-2 border-gray-100">
-              <p class="text-xs flex items-center dark:text-white">
+            <div className="py-2 px-4 text-gray-600 flex items-center justify-between border-b-2 border-gray-100">
+              <p className="text-xs flex items-center dark:text-white">
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mr-2"
+                  className="mr-2"
                   viewBox="0 0 24 24"
                 >
                   <g fill="none">
@@ -636,11 +640,11 @@ export default function Example() {
                 </svg>
                 Slack logo design
               </p>
-              <div class="flex items-center">
-                <span class="text-xs text-gray-400 mr-2 ml-2 md:ml-4">
+              <div className="flex items-center">
+                <span className="text-xs text-gray-400 mr-2 ml-2 md:ml-4">
                   30 min
                 </span>
-                <button class="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
+                <button className="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
                   <svg
                     width="15"
                     height="15"
@@ -657,13 +661,13 @@ export default function Example() {
                 </button>
               </div>
             </div>
-            <div class="py-2 px-4 text-gray-600 flex items-center justify-between">
-              <p class="text-xs flex items-center dark:text-white">
+            <div className="py-2 px-4 text-gray-600 flex items-center justify-between">
+              <p className="text-xs flex items-center dark:text-white">
                 <svg
                   width="20"
                   height="20"
                   fill="currentColor"
-                  class="mr-2"
+                  className="mr-2"
                   viewBox="0 0 24 24"
                 >
                   <g fill="none">
@@ -675,11 +679,11 @@ export default function Example() {
                 </svg>
                 Dahboard template
               </p>
-              <div class="flex items-center">
-                <span class="text-xs text-gray-400 mr-2 ml-2 md:ml-4">
+              <div className="flex items-center">
+                <span className="text-xs text-gray-400 mr-2 ml-2 md:ml-4">
                   30 min
                 </span>
-                <button class="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
+                <button className="text-sm p-1 text-gray-400 border rounded border-gray-400 mr-4">
                   <svg
                     width="15"
                     height="15"
@@ -699,17 +703,17 @@ export default function Example() {
           </div>
         </div>
       </div>
-      <div class="w-full sm:w-1/2 xl:w-1/3">
-        <div class="mb-4">
-          <div class="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700">
-            <div class="flex flex-wrap overflow-hidden">
-              <div class="w-full rounded shadow-sm">
-                <div class="flex items-center justify-between mb-4">
-                  <div class="text-left font-bold text-xl text-black dark:text-white">
+      <div className="w-full sm:w-1/2 xl:w-1/3">
+        <div className="mb-4">
+          <div className="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700">
+            <div className="flex flex-wrap overflow-hidden">
+              <div className="w-full rounded shadow-sm">
+                <div className="flex items-center justify-between mb-4">
+                  <div className="text-left font-bold text-xl text-black dark:text-white">
                     Dec 2021
                   </div>
-                  <div class="flex space-x-4">
-                    <button class="p-2 rounded-full bg-blue-500 text-white">
+                  <div className="flex space-x-4">
+                    <button className="p-2 rounded-full bg-blue-500 text-white">
                       <svg
                         width="15"
                         height="15"
@@ -722,7 +726,7 @@ export default function Example() {
                         ></path>
                       </svg>
                     </button>
-                    <button class="p-2 rounded-full bg-blue-500 text-white">
+                    <button className="p-2 rounded-full bg-blue-500 text-white">
                       <svg
                         width="15"
                         height="15"
@@ -737,140 +741,140 @@ export default function Example() {
                     </button>
                   </div>
                 </div>
-                <div class="-mx-2">
-                  <table class="w-full dark:text-white">
+                <div className="-mx-2">
+                  <table className="w-full dark:text-white">
                     <tr>
-                      <th class="py-3 px-2 md:px-3 ">S</th>
-                      <th class="py-3 px-2 md:px-3 ">M</th>
-                      <th class="py-3 px-2 md:px-3 ">T</th>
-                      <th class="py-3 px-2 md:px-3 ">W</th>
-                      <th class="py-3 px-2 md:px-3 ">T</th>
-                      <th class="py-3 px-2 md:px-3 ">F</th>
-                      <th class="py-3 px-2 md:px-3 ">S</th>
+                      <th className="py-3 px-2 md:px-3 ">S</th>
+                      <th className="py-3 px-2 md:px-3 ">M</th>
+                      <th className="py-3 px-2 md:px-3 ">T</th>
+                      <th className="py-3 px-2 md:px-3 ">W</th>
+                      <th className="py-3 px-2 md:px-3 ">T</th>
+                      <th className="py-3 px-2 md:px-3 ">F</th>
+                      <th className="py-3 px-2 md:px-3 ">S</th>
                     </tr>
-                    <tr class="text-gray-400 dark:text-gray-500">
-                      <td class="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
+                    <tr className="text-gray-400 dark:text-gray-500">
+                      <td className="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
                         25
                       </td>
-                      <td class="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
+                      <td className="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
                         26
                       </td>
-                      <td class="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
+                      <td className="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
                         27
                       </td>
-                      <td class="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
+                      <td className="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
                         28
                       </td>
-                      <td class="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
+                      <td className="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
                         29
                       </td>
-                      <td class="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
+                      <td className="py-3 px-2 md:px-3  text-center text-gray-300 dark:text-gray-500">
                         30
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center text-gray-800 cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center text-gray-800 cursor-pointer">
                         1
                       </td>
                     </tr>
                     <tr>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         2
                       </td>
-                      <td class="py-3 relative px-1  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 relative px-1  hover:text-blue-500 text-center cursor-pointer">
                         3
-                        <span class="absolute rounded-full h-2 w-2 bg-blue-500 bottom-0 left-1/2 transform -translate-x-1/2"></span>
+                        <span className="absolute rounded-full h-2 w-2 bg-blue-500 bottom-0 left-1/2 transform -translate-x-1/2"></span>
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         4
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         5
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         6
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         7
                       </td>
-                      <td class="py-3 px-2 md:px-3 md:px-2 relative lg:px-3 hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3 md:px-2 relative lg:px-3 hover:text-blue-500 text-center cursor-pointer">
                         8
-                        <span class="absolute rounded-full h-2 w-2 bg-yellow-500 bottom-0 left-1/2 transform -translate-x-1/2"></span>
+                        <span className="absolute rounded-full h-2 w-2 bg-yellow-500 bottom-0 left-1/2 transform -translate-x-1/2"></span>
                       </td>
                     </tr>
                     <tr>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         9
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         10
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         11
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         12
                       </td>
-                      <td class="py-3 px-2 md:px-3  text-center text-white cursor-pointer">
-                        <span class="p-2 rounded-full bg-blue-500">13</span>
+                      <td className="py-3 px-2 md:px-3  text-center text-white cursor-pointer">
+                        <span className="p-2 rounded-full bg-blue-500">13</span>
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         14
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         15
                       </td>
                     </tr>
                     <tr>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         16
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         17
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         18
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         19
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         20
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         21
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         22
                       </td>
                     </tr>
                     <tr>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         23
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         24
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 relative text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 relative text-center cursor-pointer">
                         25
-                        <span class="absolute rounded-full h-2 w-2 bg-red-500 bottom-0 left-1/2 transform -translate-x-1/2"></span>
+                        <span className="absolute rounded-full h-2 w-2 bg-red-500 bottom-0 left-1/2 transform -translate-x-1/2"></span>
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         26
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         27
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         28
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         29
                       </td>
                     </tr>
                     <tr>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         30
                       </td>
-                      <td class="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
+                      <td className="py-3 px-2 md:px-3  hover:text-blue-500 text-center cursor-pointer">
                         31
                       </td>
                       <td></td>
@@ -885,74 +889,76 @@ export default function Example() {
             </div>
           </div>
         </div>
-        <div class="mb-4">
-          <div class="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full">
-            <p class="font-bold text-md text-black dark:text-white">Messages</p>
+        <div className="mb-4">
+          <div className="shadow-lg rounded-2xl p-4 bg-white dark:bg-gray-700 w-full">
+            <p className="font-bold text-md text-black dark:text-white">
+              Messages
+            </p>
             <ul>
-              <li class="flex items-center my-6 space-x-2">
-                <a href="#" class="block relative">
+              <li className="flex items-center my-6 space-x-2">
+                <a href="/" className="block relative">
                   <img
                     alt="profil"
                     src="/images/person/1.jpg"
-                    class="mx-auto object-cover rounded-full h-10 w-10 "
+                    className="mx-auto object-cover rounded-full h-10 w-10 "
                   />
                 </a>
-                <div class="flex flex-col">
-                  <span class="text-sm text-gray-900 font-semibold dark:text-white ml-2">
+                <div className="flex flex-col">
+                  <span className="text-sm text-gray-900 font-semibold dark:text-white ml-2">
                     Charlie Rabiller
                   </span>
-                  <span class="text-sm text-gray-400 dark:text-gray-300 ml-2">
+                  <span className="text-sm text-gray-400 dark:text-gray-300 ml-2">
                     Hey John ! Do you read the NextJS doc ?
                   </span>
                 </div>
               </li>
-              <li class="flex items-center my-6 space-x-2">
-                <a href="#" class="block relative">
+              <li className="flex items-center my-6 space-x-2">
+                <a href="/" className="block relative">
                   <img
                     alt="profil"
                     src="/images/person/5.jpg"
-                    class="mx-auto object-cover rounded-full h-10 w-10 "
+                    className="mx-auto object-cover rounded-full h-10 w-10 "
                   />
                 </a>
-                <div class="flex flex-col">
-                  <span class="text-sm text-gray-900 font-semibold dark:text-white ml-2">
+                <div className="flex flex-col">
+                  <span className="text-sm text-gray-900 font-semibold dark:text-white ml-2">
                     Marie Lou
                   </span>
-                  <span class="text-sm text-gray-400 dark:text-gray-300 ml-2">
+                  <span className="text-sm text-gray-400 dark:text-gray-300 ml-2">
                     No I think the dog is better...
                   </span>
                 </div>
               </li>
-              <li class="flex items-center my-6 space-x-2">
-                <a href="#" class="block relative">
+              <li className="flex items-center my-6 space-x-2">
+                <a href="/" className="block relative">
                   <img
                     alt="profil"
                     src="/images/person/6.jpg"
-                    class="mx-auto object-cover rounded-full h-10 w-10 "
+                    className="mx-auto object-cover rounded-full h-10 w-10 "
                   />
                 </a>
-                <div class="flex flex-col">
-                  <span class="text-sm text-gray-900 font-semibold dark:text-white ml-2">
+                <div className="flex flex-col">
+                  <span className="text-sm text-gray-900 font-semibold dark:text-white ml-2">
                     Ivan Buck
                   </span>
-                  <span class="text-sm text-gray-400 dark:text-gray-300 ml-2">
+                  <span className="text-sm text-gray-400 dark:text-gray-300 ml-2">
                     Seriously ? haha Bob is not a children !
                   </span>
                 </div>
               </li>
-              <li class="flex items-center my-6 space-x-2">
-                <a href="#" class="block relative">
+              <li className="flex items-center my-6 space-x-2">
+                <a href="/" className="block relative">
                   <img
                     alt="profil"
                     src="/images/person/7.jpg"
-                    class="mx-auto object-cover rounded-full h-10 w-10 "
+                    className="mx-auto object-cover rounded-full h-10 w-10 "
                   />
                 </a>
-                <div class="flex flex-col">
-                  <span class="text-sm text-gray-900 font-semibold dark:text-white ml-2">
+                <div className="flex flex-col">
+                  <span className="text-sm text-gray-900 font-semibold dark:text-white ml-2">
                     Marina Farga
                   </span>
-                  <span class="text-sm text-gray-400 dark:text-gray-300 ml-2">
+                  <span className="text-sm text-gray-400 dark:text-gray-300 ml-2">
                     Do you need that deisgn ?
                   </span>
                 </div>

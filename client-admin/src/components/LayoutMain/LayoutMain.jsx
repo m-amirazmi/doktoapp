@@ -1,16 +1,17 @@
 import React from "react";
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
+import styles from "./LayoutMain.module.css";
 
 export default function LayoutMain({ children }) {
   return (
-    <main class="bg-gray-100 dark:bg-gray-800 rounded-2xl h-screen overflow-hidden relative">
-      <div class="flex items-start justify-between">
+    <main className={styles.container}>
+      <div className={styles.subContainer}>
         <Sidebar />
-        <div class="flex flex-col w-full pl-0 md:p-4 md:space-y-4">
+        <div className={styles.contentContainer}>
           <Header />
-          <div class="overflow-auto h-screen pb-24 pt-2 pr-2 pl-2 md:pt-0 md:pr-0 md:pl-0">
-            <div class="flex flex-col flex-wrap sm:flex-row ">{children}</div>
+          <div className={styles.bodyContainer}>
+            <div className={styles.bodySubContainer}>{children}</div>
           </div>
         </div>
       </div>

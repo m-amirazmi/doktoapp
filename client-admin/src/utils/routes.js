@@ -39,7 +39,7 @@ export const routes = [
     component: Customers,
     showOnSide: true,
     protected: true,
-    icon: <i class="fas fa-user-friends"></i>
+    icon: <i className="fas fa-user-friends"></i>
   },
   {
     path: '/services',
@@ -47,7 +47,7 @@ export const routes = [
     component: Services,
     showOnSide: true,
     protected: true,
-    icon: <i class="fas fa-tools"></i>
+    icon: <i className="fas fa-tools"></i>
   },
   {
     path: '/feedbacks',
@@ -55,7 +55,7 @@ export const routes = [
     component: Feedbacks,
     showOnSide: true,
     protected: true,
-    icon: <i class="fas fa-comment-alt"></i>
+    icon: <i className="fas fa-comment-alt"></i>
   },
   {
     path: '/iam',
