@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
 import { routes } from './utils/routes'
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
     <Router>
       <Switch>
         {renderRoutes}
+        <Redirect from="*" to="/" />
       </Switch>
     </Router>
   )

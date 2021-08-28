@@ -7,6 +7,7 @@ import Feedbacks from "../pages/Feedbacks/Feedbacks";
 import IAM from "../pages/IAM/IAM";
 import Settings from "../pages/Settings/Settings";
 import Services from "../pages/Services/Services";
+import Auth from "../pages/Auth/Auth";
 
 export const routes = [
   {
@@ -72,6 +73,13 @@ export const routes = [
     showOnSide: true,
     protected: true,
     icon: <i className="fas fa-cog"></i>
+  },
+  {
+    path: '/auth',
+    name: 'Auth',
+    component: Auth,
+    showOnSide: false,
+    protected: true,
   },
   {
     path: '/example',
