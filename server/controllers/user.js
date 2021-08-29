@@ -19,7 +19,7 @@ exports.register = async (req, res) => {
   const savedAuth = await newUser.save()
 
   const token = jwt.sign({ user: savedAuth._id }, process.env.JWT_SECRET)
-  res.cookie("t", token, { httpOnly: true })
+  res.cookie("t", token, { httpOnly: true, secure: true, sameSite: 'none' })
   res.status(201).json({ message: 'OK', token: token })
 }
 
@@ -39,11 +39,15 @@ exports.login = async (req, res) => {
 
   const token = jwt.sign({ user: user._id }, process.env.JWT_SECRET)
   res.cookie('role', findRole.role)
-  res.cookie("t", token, { httpOnly: true })
-  res.status(200).json({ message: 'OK', token: token })
+  res.cookie("t", token, { httpOnly: true, secure: true, sameSite: 'none' })
+  res.status(200).json({ message: 'OK', token: token, user })
 }
 
 exports.logout = async (req, res) => {
   res.cookie("t", "", { httpOnly: true, expires: new Date(0) })
   res.status(200).json({ message: 'Successfully logout...' })
+}
+
+exports.isLoggedIn = async (req, res) => {
+  res.status(200).json({ error: false, message: 'Authenticated', user: req.user })
 }

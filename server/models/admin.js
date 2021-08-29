@@ -24,7 +24,6 @@ const adminSchema = new Schema({
   },
   phone: {
     type: String,
-    required: true,
     length: 12
   },
   role: {

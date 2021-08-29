@@ -23,7 +23,6 @@ exports.validateAdminInput = (body) => {
   if (!email) return { error: true, message: 'Email cannot be emptied!' }
   if (!firstName) return { error: true, message: 'First name cannot be emptied!' }
   if (!lastName) return { error: true, message: 'Last name cannot be emptied!' }
-  if (!phone) return { error: true, message: 'Phone cannot be emptied!' }
 
   return { error: false, message: 'OK' }
 }

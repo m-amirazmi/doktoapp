@@ -8,6 +8,9 @@ const app = express()
 app.use(express.json())
 app.use(cookieParser())
 
+const origin = ["http://localhost:3000"]
+app.use(cors({ origin, credentials: true }));
+
 mongoose.connect(process.env.DB).then(() => console.log('DB Connected...')).catch((err) => console.log(err))
 
 app.use('/api/auth', require('./routes/user'))

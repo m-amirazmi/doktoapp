@@ -1,12 +1,23 @@
 import { useState } from "react";
+import { useAuth } from "../../contexts/AuthContext";
 import styles from "./Auth.module.css";
 
 export default function Auth() {
   const [isLoginForm, setIsLoginForm] = useState(false);
   const [input, setInput] = useState({});
 
+  const { currentUser, register, login, isLoggedIn } = useAuth();
+
   const handleInput = ({ currentTarget }) => {
     setInput({ ...input, [currentTarget.id]: currentTarget.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    if (isLoginForm) await login(input);
+    else await register(input);
+
+    await isLoggedIn();
   };
 
   return (
@@ -16,7 +27,7 @@ export default function Auth() {
         <h3 className={styles.subtitle}>
           {!isLoginForm ? "Create a new account" : "Welcome back!"}
         </h3>
-        <form>
+        <form onSubmit={handleSubmit}>
           {!isLoginForm && (
             <div
               className={`${styles.inputContainer} ${styles.inputContainerGrid}`}
