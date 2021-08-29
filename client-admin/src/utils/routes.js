@@ -79,7 +79,7 @@ export const routes = [
     name: 'Auth',
     component: Auth,
     showOnSide: false,
-    protected: true,
+    protected: false,
   },
   {
     path: '/example',

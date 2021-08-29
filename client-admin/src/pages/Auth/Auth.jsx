@@ -1,12 +1,14 @@
 import { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import styles from "./Auth.module.css";
 
 export default function Auth() {
-  const [isLoginForm, setIsLoginForm] = useState(false);
+  const [isLoginForm, setIsLoginForm] = useState(true);
   const [input, setInput] = useState({});
 
-  const { currentUser, register, login, isLoggedIn } = useAuth();
+  const { register, login, isLoggedIn } = useAuth();
+  const { push } = useHistory();
 
   const handleInput = ({ currentTarget }) => {
     setInput({ ...input, [currentTarget.id]: currentTarget.value });
@@ -16,8 +18,9 @@ export default function Auth() {
     e.preventDefault();
     if (isLoginForm) await login(input);
     else await register(input);
-
-    await isLoggedIn();
+    const loggedin = await isLoggedIn();
+    if (loggedin) push("/");
+    else push("/auth");
   };
 
   return (
